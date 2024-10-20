@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-19T16:54:19 IST" name="Suite" finished-at="2024-10-19T16:54:32 IST" duration-ms="12911">
+    <groups>
+    </groups>
+    <test started-at="2024-10-19T16:54:19 IST" name="Test2" finished-at="2024-10-19T16:54:28 IST" duration-ms="8123">
+      <class name="testNG.ParallelExecution">
+        <test-method signature="browser(java.lang.String)[pri:0, instance:testNG.ParallelExecution@15b204a1]" started-at="2024-10-19T16:54:19 IST" name="browser" finished-at="2024-10-19T16:54:27 IST" duration-ms="8027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- testNG.ParallelExecution -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-10-19T16:54:19 IST" name="Test" finished-at="2024-10-19T16:54:29 IST" duration-ms="9344">
+      <class name="testNG.ParallelExecution">
+        <test-method signature="browser(java.lang.String)[pri:0, instance:testNG.ParallelExecution@5e4c8041]" started-at="2024-10-19T16:54:19 IST" name="browser" finished-at="2024-10-19T16:54:29 IST" duration-ms="9261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- testNG.ParallelExecution -->
+    </test> <!-- Test -->
+    <test started-at="2024-10-19T16:54:19 IST" name="Test1" finished-at="2024-10-19T16:54:32 IST" duration-ms="12911">
+      <class name="testNG.ParallelExecution">
+        <test-method signature="browser(java.lang.String)[pri:0, instance:testNG.ParallelExecution@2f177a4b]" started-at="2024-10-19T16:54:19 IST" name="browser" finished-at="2024-10-19T16:54:32 IST" duration-ms="12829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- testNG.ParallelExecution -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
